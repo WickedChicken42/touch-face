@@ -54,14 +54,54 @@
 		270B7E3E215C2119008E2FFC /* touch-face */ = {
 			isa = PBXGroup;
 			children = (
+				270B7E55215C21AC008E2FFC /* Helpers */,
+				270B7E54215C21A5008E2FFC /* Enums */,
+				270B7E53215C219E008E2FFC /* Model */,
+				270B7E52215C2198008E2FFC /* View */,
+				270B7E51215C2189008E2FFC /* Controller */,
 				270B7E3F215C2119008E2FFC /* AppDelegate.swift */,
-				270B7E41215C2119008E2FFC /* ViewController.swift */,
 				270B7E43215C2119008E2FFC /* Main.storyboard */,
 				270B7E46215C2119008E2FFC /* Assets.xcassets */,
 				270B7E48215C2119008E2FFC /* LaunchScreen.storyboard */,
 				270B7E4B215C2119008E2FFC /* Info.plist */,
 			);
 			path = "touch-face";
+			sourceTree = "<group>";
+		};
+		270B7E51215C2189008E2FFC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				270B7E41215C2119008E2FFC /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		270B7E52215C2198008E2FFC /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		270B7E53215C219E008E2FFC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		270B7E54215C21A5008E2FFC /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		270B7E55215C21AC008E2FFC /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
