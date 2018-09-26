@@ -17,6 +17,7 @@
 		270B7E5B215C2618008E2FFC /* NoteObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E5A215C2618008E2FFC /* NoteObjects.swift */; };
 		270B7E5D215C294F008E2FFC /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E5C215C294F008E2FFC /* NoteCell.swift */; };
 		270B7E5F215C2DDF008E2FFC /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E5E215C2DDF008E2FFC /* NoteDetailVC.swift */; };
+		270B7E61215C3B63008E2FFC /* Helpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E60215C3B63008E2FFC /* Helpers.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		270B7E5A215C2618008E2FFC /* NoteObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteObjects.swift; sourceTree = "<group>"; };
 		270B7E5C215C294F008E2FFC /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
 		270B7E5E215C2DDF008E2FFC /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
+		270B7E60215C3B63008E2FFC /* Helpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helpers.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				270B7E5A215C2618008E2FFC /* NoteObjects.swift */,
+				270B7E60215C3B63008E2FFC /* Helpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				270B7E5B215C2618008E2FFC /* NoteObjects.swift in Sources */,
 				270B7E5F215C2DDF008E2FFC /* NoteDetailVC.swift in Sources */,
 				270B7E59215C2595008E2FFC /* LockStatus.swift in Sources */,
+				270B7E61215C3B63008E2FFC /* Helpers.swift in Sources */,
 				270B7E42215C2119008E2FFC /* NoteVC.swift in Sources */,
 				270B7E5D215C294F008E2FFC /* NoteCell.swift in Sources */,
 				270B7E40215C2119008E2FFC /* AppDelegate.swift in Sources */,

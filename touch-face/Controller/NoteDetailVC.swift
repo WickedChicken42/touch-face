@@ -25,7 +25,7 @@ class NoteDetailVC: UIViewController {
     
     @IBAction func lockButtonPressed(_ sender: Any) {
     
-        currentNote.setLockStatus(isLocked: true)
+        currentNote.flipLockStatus()
         navigationController?.popViewController(animated: true)
     }
     

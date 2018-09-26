@@ -24,4 +24,19 @@ class Note {
         if isLocked { lockStatus = .locked } else { lockStatus = .unlocked }
     }
     
+    func isNoteLocked() -> Bool {
+        if self.lockStatus == .locked {
+            return true
+        } else {
+            return false
+        }
+    }
+    
+    func flipLockStatus() {
+        if self.lockStatus == .locked {
+            self.lockStatus = .unlocked
+        } else {
+            self.lockStatus = .locked
+        }
+    }
 }
