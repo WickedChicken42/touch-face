@@ -8,20 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		270B7E40215C2119008E2FFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E3F215C2119008E2FFC /* AppDelegate.swift */; };
-		270B7E42215C2119008E2FFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E41215C2119008E2FFC /* ViewController.swift */; };
+		270B7E42215C2119008E2FFC /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E41215C2119008E2FFC /* NoteVC.swift */; };
 		270B7E45215C2119008E2FFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270B7E43215C2119008E2FFC /* Main.storyboard */; };
 		270B7E47215C2119008E2FFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 270B7E46215C2119008E2FFC /* Assets.xcassets */; };
 		270B7E4A215C2119008E2FFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 270B7E48215C2119008E2FFC /* LaunchScreen.storyboard */; };
+		270B7E57215C252D008E2FFC /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E56215C252D008E2FFC /* Note.swift */; };
+		270B7E59215C2595008E2FFC /* LockStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E58215C2595008E2FFC /* LockStatus.swift */; };
+		270B7E5B215C2618008E2FFC /* NoteObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E5A215C2618008E2FFC /* NoteObjects.swift */; };
+		270B7E5D215C294F008E2FFC /* NoteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E5C215C294F008E2FFC /* NoteCell.swift */; };
+		270B7E5F215C2DDF008E2FFC /* NoteDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270B7E5E215C2DDF008E2FFC /* NoteDetailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		270B7E3C215C2119008E2FFC /* touch-face.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "touch-face.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		270B7E3F215C2119008E2FFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		270B7E41215C2119008E2FFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		270B7E41215C2119008E2FFC /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
 		270B7E44215C2119008E2FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		270B7E46215C2119008E2FFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		270B7E49215C2119008E2FFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		270B7E4B215C2119008E2FFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		270B7E56215C252D008E2FFC /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
+		270B7E58215C2595008E2FFC /* LockStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LockStatus.swift; sourceTree = "<group>"; };
+		270B7E5A215C2618008E2FFC /* NoteObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteObjects.swift; sourceTree = "<group>"; };
+		270B7E5C215C294F008E2FFC /* NoteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteCell.swift; sourceTree = "<group>"; };
+		270B7E5E215C2DDF008E2FFC /* NoteDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteDetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,7 +81,8 @@
 		270B7E51215C2189008E2FFC /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				270B7E41215C2119008E2FFC /* ViewController.swift */,
+				270B7E41215C2119008E2FFC /* NoteVC.swift */,
+				270B7E5E215C2DDF008E2FFC /* NoteDetailVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -79,6 +90,7 @@
 		270B7E52215C2198008E2FFC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				270B7E5C215C294F008E2FFC /* NoteCell.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -86,6 +98,7 @@
 		270B7E53215C219E008E2FFC /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				270B7E56215C252D008E2FFC /* Note.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +106,7 @@
 		270B7E54215C21A5008E2FFC /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				270B7E58215C2595008E2FFC /* LockStatus.swift */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -100,6 +114,7 @@
 		270B7E55215C21AC008E2FFC /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				270B7E5A215C2618008E2FFC /* NoteObjects.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -175,8 +190,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				270B7E42215C2119008E2FFC /* ViewController.swift in Sources */,
+				270B7E5B215C2618008E2FFC /* NoteObjects.swift in Sources */,
+				270B7E5F215C2DDF008E2FFC /* NoteDetailVC.swift in Sources */,
+				270B7E59215C2595008E2FFC /* LockStatus.swift in Sources */,
+				270B7E42215C2119008E2FFC /* NoteVC.swift in Sources */,
+				270B7E5D215C294F008E2FFC /* NoteCell.swift in Sources */,
 				270B7E40215C2119008E2FFC /* AppDelegate.swift in Sources */,
+				270B7E57215C252D008E2FFC /* Note.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,6 +343,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BLD9C8T4L3;
 				INFOPLIST_FILE = "touch-face/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -340,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BLD9C8T4L3;
 				INFOPLIST_FILE = "touch-face/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
