@@ -24,6 +24,10 @@ class Note {
         if isLocked { lockStatus = .locked } else { lockStatus = .unlocked }
     }
     
+    func setMessage(message: String) {
+        self.message = message
+    }
+    
     func isNoteLocked() -> Bool {
         if self.lockStatus == .locked {
             return true

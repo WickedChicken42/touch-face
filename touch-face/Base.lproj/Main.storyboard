@@ -72,9 +72,13 @@
                         <barButtonItem key="backBarButtonItem" title="Back" id="HTU-qa-1BF"/>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="zBG-cB-hFr">
                             <color key="tintColor" red="0.91764705879999997" green="0.66274509800000003" blue="0.2666666667" alpha="1" colorSpace="calibratedRGB"/>
+                            <connections>
+                                <action selector="addNotePressed:" destination="BYZ-38-t0r" id="8sv-r6-FoM"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
+                        <outlet property="addNote" destination="zBG-cB-hFr" id="XMi-9f-8ny"/>
                         <outlet property="tableView" destination="BxO-WP-TEp" id="7lv-5k-3eb"/>
                     </connections>
                 </viewController>

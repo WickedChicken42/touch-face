@@ -29,4 +29,24 @@ class NoteDetailVC: UIViewController {
         navigationController?.popViewController(animated: true)
     }
     
+    override func viewWillDisappear(_ animated: Bool) {
+        if self.isMovingFromParent {
+            // The back button was pressed, save the text
+            if noteTextView.text != "" {
+                currentNote.setMessage(message: noteTextView.text)
+            } else {
+//                let alertVC = UIAlertController(title: "Empty Text", message: "Did you want to delete this note?", preferredStyle: .alert)
+//                let actionYes = UIAlertAction(title: "Yes", style: .destructive, handler: { action in
+//                    // Delete the current note
+//                    notesArray.remove(at: self.index)
+//                })
+//                alertVC.addAction(actionYes)
+//                let actionNo = UIAlertAction(title: "No", style: .cancel, handler: nil) // Do nothing and allow it to go back
+//                alertVC.addAction(actionNo)
+//                self.present(alertVC, animated: true)
+
+            }
+        }
+    }
+    
 }
