@@ -13,7 +13,7 @@ class NoteDetailVC: UIViewController {
     @IBOutlet var noteTextView: UITextView!
     
     var currentNote: Note!
-    var index: Int!
+    //var index: Int!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -34,6 +34,13 @@ class NoteDetailVC: UIViewController {
             // The back button was pressed, save the text
             if noteTextView.text != "" {
                 currentNote.setMessage(message: noteTextView.text)
+                currentNote.saveToData { (success) in
+                    if success {
+                        print("We Saved the note!!!!!!")
+                    } else {
+                        print("We DID NOT Save the note!!!!!!")
+                    }
+                }
             } else {
 //                let alertVC = UIAlertController(title: "Empty Text", message: "Did you want to delete this note?", preferredStyle: .alert)
 //                let actionYes = UIAlertAction(title: "Yes", style: .destructive, handler: { action in

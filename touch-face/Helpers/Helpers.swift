@@ -8,3 +8,5 @@
 
 import Foundation
 
+let NEW_UUID = UUID(uuidString: "99999999-9999-9999-9999-999999999999")
+

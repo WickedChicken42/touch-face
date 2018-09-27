@@ -8,7 +8,7 @@
 
 import Foundation
 
-enum LockStatus {
-    case locked
-    case unlocked
+enum LockStatus: String {
+    case locked = "Locked"
+    case unlocked = "Unlocked"
 }
